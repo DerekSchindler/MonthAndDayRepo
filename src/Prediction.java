@@ -13,7 +13,6 @@ public class Prediction {
         int K;
         int h;
         int a, b, c, d, e, f;
-        String next;
 
         //rhyme
         System.out.println("There's an old nursery rhyme tht goes like this...\n"+" ");
@@ -75,15 +74,15 @@ public class Prediction {
 
             //poem line
             switch(h){
-                case 0: System.out.println("You were born on a Saturday.\n According to the poem you work hard for a living."); break;
-                case 1:System.out.println("You were born on a Sunday.\n According to the poem you are fair and wise and good in every way."); break;
-                case 2:System.out.println("You were born on a Monday. \n According to the poem you are fair of face."); break;
-                case 3:System.out.println("You were born on a Tuesday. \n According to the poem you are full of grace."); break;
-                case 4:System.out.println("You were born on a Wednesday. \n According to the poem you are full of woe."); break;
-                case 5:System.out.println("You were born on a Thursday. \n According to the poem you have far to go. "); break;
-                case 6:System.out.println("You were born on a Friday. \n According to the poem you are loving and giving. "); break;
+                case 0: System.out.println("You were born on a Saturday.\nAccording to the poem you work hard for a living."); break;
+                case 1:System.out.println("You were born on a Sunday.\nAccording to the poem you are fair and wise and good in every way."); break;
+                case 2:System.out.println("You were born on a Monday. \nAccording to the poem you are fair of face."); break;
+                case 3:System.out.println("You were born on a Tuesday. \nAccording to the poem you are full of grace."); break;
+                case 4:System.out.println("You were born on a Wednesday. \nAccording to the poem you are full of woe."); break;
+                case 5:System.out.println("You were born on a Thursday. \nAccording to the poem you have far to go. "); break;
+                case 6:System.out.println("You were born on a Friday. \nAccording to the poem you are loving and giving. "); break;
             }
-
+            System.out.println(" ");
             System.out.println("Try another date.");
 
         }
